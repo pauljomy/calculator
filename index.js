@@ -14,6 +14,7 @@ const equal = document.getElementById("equal");
 const plus = document.getElementById("plus");
 const minus = document.getElementById("minus");
 const division = document.getElementById("division");
+const multiply = document.getElementById("multiply");
 const modulo = document.getElementById("modulo");
 const backspace = document.getElementById("backspace");
 const clearScreen = document.getElementById("ac");
@@ -22,6 +23,8 @@ const answer = document.getElementById("final-answer");
 const question = document.getElementById("question");
 
 equal.addEventListener("click", () => {});
+
+multiply.addEventListener("click", addDigits);
 
 function addDigits(num1, num2) {
   return num1 * num2;
