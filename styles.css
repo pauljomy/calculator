@@ -28,6 +28,8 @@ body {
   height: 270px;
   display: flex;
   background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container .keypad {
